@@ -4,9 +4,9 @@ app = Flask(__name__)
 
 
 routes_map = {
-    'google': 'http://www.google.com',
+    'google': 'https://www.google.com',
     'rajan': 'http://www.rajanu.com.np',
-    'blog': 'http://blog.rajanu.com.np'
+    'blog': 'http://techblog.rajanu.com.np'
 }
 
 @app.route('/go/<name>')
